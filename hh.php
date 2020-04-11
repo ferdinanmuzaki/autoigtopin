@@ -13,6 +13,7 @@ $pass = $_POST['password'];
 use seregazhuk\PinterestBot\Factories\PinterestBot;
 
 $bot = PinterestBot::create();
+$blogUrl = 'https://www.masdoyok.com
 
 // Login
 $bot->auth->login($email, $pass);
